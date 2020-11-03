@@ -1,0 +1,367 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-03T17:18:22.604Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3436000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinitions.LoginFacebookStepsHooks.browserSetup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Check login is successful with valid credentials",
+        "description": "",
+        "id": "feature-to-test-login-for-facebook-functionality;check-login-is-successful-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3012000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinitions.LoginFacebookStepsHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4647000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefinitions.LoginFacebookStepsHooks.beforSteps()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepsDefinitions.LoginFacebookStepsHooks.user_is_on_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefinitions.LoginFacebookStepsHooks.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 367000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefinitions.LoginFacebookStepsHooks.beforSteps()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user enters  sselenium674@gmail.com and Selenium01",
+            "match": {
+              "arguments": [
+                {
+                  "val": " sselenium674@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "Selenium01",
+                  "offset": 40
+                }
+              ],
+              "location": "StepsDefinitions.LoginFacebookStepsHooks.user_enters_user1_and_user1(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefinitions.LoginFacebookStepsHooks.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefinitions.LoginFacebookStepsHooks.beforSteps()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "clicks on button",
+            "match": {
+              "location": "StepsDefinitions.LoginFacebookStepsHooks.clicks_on_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefinitions.LoginFacebookStepsHooks.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8844000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefinitions.LoginFacebookStepsHooks.beforSteps()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "StepsDefinitions.LoginFacebookStepsHooks.user_is_navigated_to_the_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefinitions.LoginFacebookStepsHooks.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-03T17:18:43.137Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1955000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinitions.LoginFacebookStepsHooks.browserSetup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Check login is successful with valid credentials",
+        "description": "",
+        "id": "feature-to-test-login-for-facebook-functionality;check-login-is-successful-with-valid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2914000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinitions.LoginFacebookStepsHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8144000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefinitions.LoginFacebookStepsHooks.beforSteps()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepsDefinitions.LoginFacebookStepsHooks.user_is_on_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefinitions.LoginFacebookStepsHooks.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 330000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefinitions.LoginFacebookStepsHooks.beforSteps()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "user enters  sseleniumCucumber@gmail.com and Selenium02",
+            "match": {
+              "arguments": [
+                {
+                  "val": " sseleniumCucumber@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "Selenium02",
+                  "offset": 45
+                }
+              ],
+              "location": "StepsDefinitions.LoginFacebookStepsHooks.user_enters_user1_and_user1(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefinitions.LoginFacebookStepsHooks.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 129000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefinitions.LoginFacebookStepsHooks.beforSteps()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "clicks on button",
+            "match": {
+              "location": "StepsDefinitions.LoginFacebookStepsHooks.clicks_on_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefinitions.LoginFacebookStepsHooks.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2517000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefinitions.LoginFacebookStepsHooks.beforSteps()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "StepsDefinitions.LoginFacebookStepsHooks.user_is_navigated_to_the_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "StepsDefinitions.LoginFacebookStepsHooks.afterSteps()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E"
+          }
+        ]
+      }
+    ],
+    "name": "feature to test login for Facebook functionality",
+    "description": "",
+    "id": "feature-to-test-login-for-facebook-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
